@@ -20,8 +20,8 @@ from core.views import *
 
 urlpatterns = [
     url('', index),
-    url(r'^contato/', contato)
-    url(r'^login/', login)
-    url(r'^admin/', admin.site.urls),
+    url('contato/', contato),
+    url('login/', login),
+    url('admin/', admin.site.urls),
 
 ]
